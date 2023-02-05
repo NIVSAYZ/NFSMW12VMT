@@ -26,44 +26,45 @@ An example will be: FrontWindShield_glass.
 
 Listed below are the available materials and the infos.
 
-MaterialType		| Info
+MaterialType		  | Info
 
-body			| Non-changing body colour
-bodypaint			| Changable body colour when entering gas-station
-bodypaintlivery		| Car body with liveries/wraps, transparent area will be car's body paint
-carbon			| carbon fiber
-glass			| glass
-colouriseglass		| glass with colour
-glassdoublesided		| glass with texture/livery
-light			| light
-grille			| grille
-interior			| interior
-refraction			| light, but better than light material
+body			        | Non-changing body colour
+bodypaint			    | Changable body colour when entering gas-station
+bodypaintlivery	  | Car body with liveries/wraps, transparent area will be car's body paint
+carbon			      | carbon fiber
+glass			        | glass
+colouriseglass	  | glass with colour
+glassdoublesided	| glass with texture/livery
+light			        | light
+grille			      | grille
+interior			    | interior
+refraction			  | light, but better than light material
 
 
 After done naming your materials and meshes, you can assign values for your desired settings using Blender's "Principled BSDF" surface found under the materials tab. Values will be exported to an extra mtl file for conversion later.
 
 
-Material			| Editable Data
+Material			    | Editable Data
 
-body			| Base Colour, Roughness
-bodypaint			| NA
-bodypaintlivery		| NA
-carbon			| NA
-glass			| Alpha
-colouriseglass		| Base Colour
-glassdoublesided		| Alpha
-light			| Base Colour, Emission, Emission Strength
-grille			| Base Colour, Roughness
-interior			| Emission, Emission Strength 
-refraction			| Base Colour, Emission, Emission Strength
+body			        | Base Colour, Roughness
+bodypaint			    | NA
+bodypaintlivery	  | NA
+carbon			      | NA
+glass			        | Alpha
+colouriseglass	  | Base Colour
+glassdoublesided	| Alpha
+light			        | Base Colour, Emission, Emission Strength
+grille			      | Base Colour, Roughness
+interior			    | Emission, Emission Strength 
+refraction			  | Base Colour, Emission, Emission Strength
 
-Type (Description) 				| Value Range
-Base Colour (Diffuse Colour) 			| 0 ~ 1
-Roughness (How rough a surface is) 		| 0 ~ 1
-Emission (Emission Colour) 			| 0 ~ 1
+Type (Description) 				                      | Value Range
+
+Base Colour (Diffuse Colour) 			              | 0 ~ 1
+Roughness (How rough a surface is) 	            | 0 ~ 1
+Emission (Emission Colour) 			                | 0 ~ 1
 Emission Strength (How strong the light emitts)	| 0 ~ 10
-Alpha (Opacity)				| 0 ~ 1
+Alpha (Opacity)				                          | 0 ~ 1
 
 To export, select Wavefront OBJ format (NFSMW12VMT).
 
@@ -75,14 +76,14 @@ Texture Type: c (colour texture) , d (diffuse texture) , dp (displacement textur
 emissive texture and lightmap lights texture: the alpha channel of the texture indicates rear lights, the red channel of the texture indicates brake lights, the green channel of the texture indicates headlights, and the blue channel of the texture indicates reversing lights
 It is recommended to use a picture with a resolution aspect ratio of 1:1, otherwise it may cause the game crash
 
-Material		| Supported Textures
+Material		      | Supported Textures
 
-bodypaintlivery	| d
+bodypaintlivery	  | d
 glassdoublesided 	| d
-light 		| l , n , s 
-grille		| d , n
-interior		| d , n , s 
-refraction		| c , en , e , in , dp
+light 		        | l , n , s 
+grille		        | d , n
+interior		      | d , n , s 
+refraction		    | c , en , e , in , dp
 
 5. After exporting the obj and mtl file, use the tool NFSMW12VMT to convert the model, you need to manually input the respective directories.
 6. After conversion using the NFSMW12VMT tool, pack the file with DGI's MW12 Packer, rename the file and put where it belongs, enjoy.
