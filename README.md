@@ -16,7 +16,7 @@ NFSMW12VMT无Mesh，贴图数量限制，支持更多材质与可调参数，修
 + 在Blender中同时启用blender_export_obj_NBMC与blender_export_obj_NFSMW12VMT会发生冲突，导致导出的obj格式错误
 + 若转换后出现顶点数量大于60000的错误(不止为何顶点数量大于60000游戏会崩溃)，可以通过平滑着色或者将三角面转为四边面来减少顶点，平滑着色可以减少大量顶点，转换为四边面减少少量顶点
 + 多个Mesh可以共用同一材质
-+ 一个不可以使用多个材质
++ 一个Mesh不可以使用多个材质
 
 ### 教程
 + 1. 将blender_export_obj_NFSMW12VMT插件安装至Blender3.4
@@ -146,7 +146,7 @@ To export, select Wavefront OBJ format (NFSMW12VMT).
 
 Textures should be named in the format: MeshName_TextureType. Texture must be in dds format, with the same directory with mtl and obj file.
 
-It is recommended to use a picture with a resolution aspect ratio of 1:1, otherwise it may cause the game crash
+It is recommended to use a image with a resolution aspect ratio of 1:1, otherwise it may cause the game crash
 
 Texture Type | Info
 -- | --
