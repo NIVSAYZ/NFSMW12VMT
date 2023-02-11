@@ -1,7 +1,7 @@
 # Need For Speed Most Wanted 2012 Vehicle Model Tool 简介/Introduction
 ## 中文
 
-此教程对应的NFSMWVMT版本：1.1.2
+此教程对应的NFSMWVMT版本：1.1.2 - 1.1.3
 
 感谢Binko提供的法线算法，Mip贴图算法，多边面导入方法
 
@@ -87,7 +87,7 @@ refraction | c，en，e，in，dp
 
 ## English
 
-The corresponding NFSMWVMT version of this tutorial: 1.1.2
+The corresponding NFSMWVMT version of this tutorial: 1.1.2 - 1.1.3
 
 Thanks for the normal algorithm, mipmap algorithm, polyface import method, provided by Binko_ctr
 
