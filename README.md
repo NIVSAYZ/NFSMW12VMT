@@ -21,8 +21,8 @@ bodypaintlivery | 无 | 贴花车身，贴花透明部分可变色
 carbon | 无 | 碳纤维
 glass | Alpha | 玻璃
 colouriseglass | 基础色，自发光(发射)，自发光强度 | 着色玻璃
-glassdoublesided | 贴花玻璃
-light | 车灯
-grille | 格栅
-interior | 内饰
-refraction | 车灯，比light材质表现更好
+glassdoublesided | Alpha | 贴花玻璃
+light | 基础色，自发光(发射)，自发光强度 | 车灯
+grille | 基础色，糙度 | 格栅
+interior | 自发光(发射)，自发光强度 | 内饰
+refraction | 基础色，自发光(发射)，自发光强度 | 车灯，比light材质表现更好
