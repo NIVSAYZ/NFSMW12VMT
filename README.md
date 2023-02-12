@@ -34,7 +34,7 @@ bodypaint | 无 | 变色车身，维修站换色，颜色类型与数量取决�
 bodypaintlivery | 无 | 贴花车身，贴花透明部分可变色
 carbon | 无 | 碳纤维
 glass | Alpha | 玻璃
-colouriseglass | 基础色，自发光(发射)，自发光强度 | 着色玻璃
+colouriseglass | 基础色 | 着色玻璃
 glassdoublesided | Alpha | 贴花玻璃
 light | 基础色，自发光(发射)，自发光强度 | 车灯
 grille | 基础色，糙度 | 格栅
