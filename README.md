@@ -7,6 +7,9 @@
 
 NFSMW12VMT无Mesh，贴图数量限制，支持更多材质与可调参数，修复了法线平滑的问题
 
+### 模板样式
++ [LamborghiniAventadorLibertyWalk](https://raw.githubusercontent.com/NIVSAYZ/NFSMW12VMT/main/TutorialResources/CHS/LamborghiniAventadorLibertyWalk-CHS.rar)
+
 ### 需要的额外工具
 + Noesis
 + DGIorio的[NFS Most Wanted Packer and Unpacker for Noesis](https://cdn.discordapp.com/attachments/635520888204165160/663416960587137024/tool_NFSMW2012_Packer_Unpacker.rar)
@@ -99,6 +102,9 @@ Thanks for the normal algorithm, mipmap algorithm, polyface import method, provi
 NFSMW12VMT has no mesh and texture number limited, supports more materials and adjustable parameters, and fixes the problem of shade smooth
 
 Thanks for tutorial translated by enthuse
+
+### Blender project example
++ [LamborghiniAventadorLibertyWalk](https://raw.githubusercontent.com/NIVSAYZ/NFSMW12VMT/main/TutorialResources/EN/LamborghiniAventadorLibertyWalk-EN.rar)
 
 ### Required extra tools
 + Noesis
