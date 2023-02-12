@@ -843,12 +843,10 @@ print("Library检查完成!")
 print("Need For Speed Most Wanted(2012) Vehicle Model Tool by NIVSAYZ")
 print("版本: 1.1.3 - Release")
 ObjPath = input("obj文件路径:")
-ObjPath = r"C:\Users\Administrator\Desktop\audir8-2.obj"
 if not os.path.exists(ObjPath):
     input("错误: obj文件路径无效!")
     exit()
 UnpackPath = input("解包车辆文件路径:")
-UnpackPath = r"C:\Users\Administrator\Desktop\2076137"
 if not os.path.exists(UnpackPath):
     input("错误: 解包车辆文件路径无效!")
     exit()
