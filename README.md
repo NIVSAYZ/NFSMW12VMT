@@ -7,7 +7,7 @@
 
 NFSMW12VMT无Mesh，贴图数量限制，支持更多材质与可调参数，修复了法线平滑的问题
 
-### 模板样式
+### Blender样例
 + [LamborghiniAventadorLibertyWalk](https://raw.githubusercontent.com/NIVSAYZ/NFSMW12VMT/main/TutorialResources/CHS/LamborghiniAventadorLibertyWalk-CHS.rar)
 
 ### 需要的额外工具
